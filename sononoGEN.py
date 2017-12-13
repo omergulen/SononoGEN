@@ -67,7 +67,7 @@ def error(bot, update, error):
 
 def main():
     """Run bot."""
-    updater = Updater("************************************************")
+    updater = Updater("*******************************************")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
@@ -77,7 +77,6 @@ def main():
     dp.add_handler(CommandHandler("about", about))
     dp.add_handler(CommandHandler("t", translator,
                                   pass_args=True))
-    #dp.add_handler(CommandHandler("unset", unset, pass_chat_data=True))
 
     # log all errors
     dp.add_error_handler(error)

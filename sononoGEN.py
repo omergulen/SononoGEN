@@ -37,7 +37,7 @@ def start(bot, update):
 
 def about(bot, update):
     update.message.reply_text('To advice us:\n'
-                      'https://raw.githubusercontent.com/omergulen/SononoGEN/\n'
+                      'https://github.com/omergulen/SononoGEN/\n'
                       'or\n'
                       'omrglen@gmail.com\n'
                       'Thanks for support!')

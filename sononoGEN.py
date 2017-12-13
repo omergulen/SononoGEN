@@ -37,15 +37,10 @@ def start(bot, update):
 
 def about(bot, update):
     update.message.reply_text('To advice us:\n'
-                      'https://github.com/omergulen/telegram-currency-bot\n'
+                      'https://raw.githubusercontent.com/omergulen/SononoGEN/\n'
                       'or\n'
                       'omrglen@gmail.com\n'
                       'Thanks for support!')
-
-
-def alarm(bot, job):
-    """Send the alarm message."""
-    bot.send_message(job.context, text='Beep!')
 
 
 def translator(bot, update, args):

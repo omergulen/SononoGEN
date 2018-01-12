@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+bot_TOKEN = ""
 
 from telegram.ext import Updater, CommandHandler
 import logging
@@ -44,7 +45,7 @@ def error(bot, update, error):
 
 def main():
     """Run bot."""
-    updater = Updater("*******************************************")
+    updater = Updater(bot_TOKEN)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
